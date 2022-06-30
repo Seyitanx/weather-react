@@ -40,7 +40,7 @@ export default function Weather() {
                     <strong id="current-degree"></strong>
                     <span className="units">℃</span>
                   </li>
-                </ul>*
+                </ul>
                 <img
                   src=""
                   id="icon"
