@@ -1,0 +1,101 @@
+h1 {
+  font-family: "Oswald", sans-serif;
+  color: dimgray;
+  font-weight: 100;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0px;
+  padding: 0px 30px;
+}
+li {
+  font-family: "Oswald", sans-serif;
+  color: dimgray;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 19px;
+}
+li::first-letter {
+  text-transform: capitalize;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+.card-title {
+  font-family: "PT Mono", monospace;
+}
+.cloud-icon {
+  position: relative;
+  padding: 0px 30px;
+  bottom: 90px;
+  right: 10px;
+}
+.back-card {
+  background: linear-gradient(#dacbcb, #1c2042);
+  border-radius: 5px;
+  border: 5px solid white;
+  padding: 20px;
+  max-width: fit-content;
+}
+.card-cover {
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+.button {
+  padding: 2px;
+  border: 2px solid dimgray;
+  border-radius: 5px;
+  background-color: white;
+  transition: all 200ms ease-in-out;
+}
+.button:hover {
+  background-color: dimgray;
+  color: white;
+  cursor: pointer;
+}
+.second {
+  padding: 2px;
+  border: 2px solid dimgray;
+  border-radius: 5px;
+  background-color: white;
+  transition: all 200ms ease-in-out;
+}
+.second:hover {
+  background-color: dimgray;
+  color: white;
+  cursor: pointer;
+}
+.newlink {
+  color: dimgray;
+  text-align: center;
+}
+
+.weather-temperature strong {
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 400;
+  margin-left: 90px;
+}
+.weather-temperature .units {
+  position: relative;
+  top: -20px;
+  font-size: 20px;
+  font-weight: 100;
+}
+.faraheint {
+  color: dimgray;
+  text-decoration: none;
+}
+.celsius {
+  color: dimgray;
+  text-decoration: none;
+}
+.weather-forecast {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
