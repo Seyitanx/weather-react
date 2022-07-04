@@ -20,9 +20,7 @@ export default function Weather() {
               className="button"
               id="new-button"
             />
-            <button type="button" className="second" id="current-button">
-              Show current location
-            </button>
+            
           </form>
           <div className="weather-overview">
      < div id="current-city"></div>
