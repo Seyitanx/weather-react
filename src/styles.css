@@ -34,17 +34,22 @@ ul {
   bottom: 90px;
   right: 10px;
 }
-.back-card {
-  background: linear-gradient(#dacbcb, #1c2042);
-  border-radius: 5px;
-  border: 5px solid white;
-  padding: 20px;
-  max-width: fit-content;
+.container{
+  display: flex;
+  justify-content: center;
 }
-.card-cover {
-  margin-bottom: 0px;
+.back-card {
+background-color: rgb(208, 185, 157);
+  border-radius: 5px;
+  border: 5px solid dimgray;
+  padding: 20px;
+width: 500px;
+ margin-bottom: 0px;
   margin-top: 30px;
 }
+
+ 
+
 .button {
   padding: 2px;
   border: 2px solid dimgray;

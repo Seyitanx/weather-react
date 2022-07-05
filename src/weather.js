@@ -5,7 +5,7 @@ import "./styles.css";
 export default function Weather() {
   return (
     <div className="container">
-      <div className="card-cover">
+     
         <div className="back-card">
           <form id="search-form">
             <input
@@ -61,6 +61,6 @@ export default function Weather() {
           <div className="weather-forecast" id="forecast"></div>
         </div>
       </div>
-    </div>
+   
   );
 }
