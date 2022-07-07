@@ -13,7 +13,8 @@ setweatherData(
     humidity: response.data.main.humidity,
     description: response.data.weather[0].description,
     wind:response.data.wind.speed,
-    city: response.data.name
+    city: response.data.name,
+date: new Date(response.data.dt * 1000)
 
   }
 );
@@ -46,7 +47,9 @@ setweatherData(
            <div className="weather-overview">
              <div id="current-city"> <h1>{weatherData.city}</h1></div>
              <ul>
-               <li id="the-date"></li>
+               <li id="the-date">
+                <NewDate date= />
+               </li>
                <li id="cloud-description">{weatherData.description}</li>
              </ul>
            </div>
