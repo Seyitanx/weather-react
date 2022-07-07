@@ -1,20 +1,8 @@
 import React from "react";
-import Weather from "./weather";
-export default function NewDate(props) {
+
+export default function NewDates(props) {
   
-  
- 
-   
-  let day = days[props.getDay()];
-  let hour = props.getHour();
-  if (hours < 10) {
-    hours = `0${hours}`;
-  }
-  let minutes = props.getMinutes();
-  if (minutes < 10) {
-    minutes = `0${minutes}`;
-  }
-let days =[
+  let days =[
     "Sunday",
     "Monday",
     "Tuesday",
@@ -22,8 +10,20 @@ let days =[
     "Thursday",
     "Friday",
     "Saturday"
-   ]
+   ];
+ 
+   
+  let day = days[props.getDay()];
+  let hour = props.getHour();
+  if (hour < 10) {
+    hour = `0${hour}`;
+  }
+  let minutes = props.getMinutes();
+  if (minutes < 10) {
+    minutes = `0${minutes}`;
+  }
+
     return (
-      <div> {day}, {hour}:{minutes}</div>  
-    )
+      <div> {day} {hour}:{minutes}</div>  
+    );
 }

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import NewDates from "./newdate";
 import axios from "axios";
 import "./styles.css";
 
@@ -48,7 +49,7 @@ date: new Date(response.data.dt * 1000)
              <div id="current-city"> <h1>{weatherData.city}</h1></div>
              <ul>
                <li id="the-date">
-                <NewDate date={weatherData.date} />
+                <NewDates date={weatherData.date} />
                </li>
                <li id="cloud-description">{weatherData.description}</li>
              </ul>
