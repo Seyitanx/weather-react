@@ -13,8 +13,8 @@ export default function NewDate(props) {
    ];
  
    
-  let day = days[props.getDay()];
-  let hour = props.date.getHour();
+  let day = days[props.date.getDay()];
+  let hour = props.date.getHours();
   if (hour < 10) {
     hour = `0${hour}`;
   }
