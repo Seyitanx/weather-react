@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function NewDates(props) {
+export default function NewDate(props) {
   
   let days =[
     "Sunday",
