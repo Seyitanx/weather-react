@@ -14,11 +14,11 @@ export default function NewDates(props) {
  
    
   let day = days[props.getDay()];
-  let hour = props.getHour();
+  let hour = props.date.getHour();
   if (hour < 10) {
     hour = `0${hour}`;
   }
-  let minutes = props.getMinutes();
+  let minutes = props.date.getMinutes();
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
