@@ -26,15 +26,10 @@ export default function WeatherInfo(props) {
                      <span className="units">℃</span>
                    </li>
                  </ul>
-                 <div>
-                 <img
-                   src=""
-                   id="icon"
-                   className="cloud-icon"
-                   alt="weather-icon"
-                   
-                 />
-                 <WeatherIcon />
+                 <div className="cloud-icon"
+                   alt="weather-icon">
+                
+                 <WeatherIcon code={props.data.icon}/>
                  </div>
                </div>
              </div>
