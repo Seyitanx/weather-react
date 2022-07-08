@@ -6,7 +6,7 @@ function App() {
     <div >
      
       
-        <Weather />
+        <Weather city="lagos" />
      
     </div>
   );
