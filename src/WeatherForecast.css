@@ -2,7 +2,16 @@
   text-align: center;
 }
 
+.WeatherForecast-day{
+  color: rgb(160, 150, 150);
+
+}
+
 .WeatherForecast-temperature-min {
   opacity: 0.6;
   margin-left: 5px;
+  color: rgb(160, 150, 150);
+}
+.WeatherForecast-temperature-max{
+  color: rgb(160, 150, 150);
 }
