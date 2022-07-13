@@ -1,7 +1,7 @@
 import React from "react";
 import WeatherIcon from "./weathericon";
 import NewDate from "./newdate";
-import WeatherTemp from "./weathertemp";
+
 
 export default function WeatherInfo(props) {
     return(
@@ -19,7 +19,7 @@ export default function WeatherInfo(props) {
            <div className="row">
              <div className="col-sm-6">
                <div className="weather-temperature">
-                <WeatherTemp />
+             
                  <ul>
                    <li>
                      <strong id="current-degree">

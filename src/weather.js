@@ -66,6 +66,8 @@ function handleChange(event) {
        </div>
      );
   } else {
+
+    
      search();
   }
 
