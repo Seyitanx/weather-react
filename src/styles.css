@@ -41,30 +41,25 @@ ul {
   justify-content: center;
 }
 .back-card {
-
-  background-image: linear-gradient(
-    225deg,
-   
-    #51445c 30%,
-    #0c2f48 100%
-  );
+  background-image: linear-gradient(225deg, #51445c 30%, #0c2f48 100%);
   border-radius: 5px;
-  border: 5px solid  rgb(160, 150, 150);
+  border: 5px solid rgb(160, 150, 150);
   padding: 20px;
   width: 500px;
   margin-bottom: 0px;
   margin-top: 30px;
+  height: 350px;
 }
 
 .button {
   padding: 2px;
-  border: 2px solid  rgb(160, 150, 150);
+  border: 2px solid rgb(160, 150, 150);
   border-radius: 5px;
   background-color: white;
   transition: all 200ms ease-in-out;
 }
 .button:hover {
-  background-color:  rgb(160, 150, 150);
+  background-color: rgb(160, 150, 150);
   color: white;
   cursor: pointer;
 }

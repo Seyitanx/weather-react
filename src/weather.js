@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import WeatherInfo from "./weatherinfo";
+import WeatherForecast from "./weatherforecast";
 import axios from "axios";
 import "./styles.css";
 
@@ -62,12 +63,11 @@ function handleChange(event) {
              />
            </form>
            <WeatherInfo data={weatherData} />
+           <WeatherForecast />
          </div>
        </div>
      );
   } else {
-
-    
      search();
   }
 
