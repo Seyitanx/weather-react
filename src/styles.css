@@ -48,21 +48,22 @@ ul {
   width: 400px;
   margin-bottom: 0px;
   margin-top: 30px;
-  height: 390px;
+  height: 450px;
 }
 
 .button {
-  padding: 2px;
-  margin-left: 10px;
+
+  margin-left: 5px;
   border: 2px solid rgb(160, 150, 150);
   border-radius: 5px;
-  width: 80px;
-  background-color: white;
+
+  color: white;
+  background-color: rgb(160, 150, 150) ;
   transition: all 200ms ease-in-out;
 }
 .button:hover {
-  background-color: rgb(160, 150, 150);
-  color: white;
+  color: rgb(160, 150, 150);
+ background-color: white;
   cursor: pointer;
 }
 .second {
