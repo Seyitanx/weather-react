@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import WeatherInfo from "./weatherinfo";
 import WeatherForecast from "./weatherforecast";
+import { Circles } from "react-loader-spinner";
 import axios from "axios";
 
 import "./styles.css";
@@ -62,7 +63,7 @@ export default function Weather(props) {
       </div>
     );
   } else {
-
     search();
+    return <Circles height="100" width="100" color="grey" ariaLabel="loading" />;
   }
 }
