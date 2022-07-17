@@ -33,8 +33,8 @@ ul {
 .cloud-icon {
   position: relative;
   padding: 0px 30px;
-  bottom: 45px;
-  right: 30px;
+  bottom: 49px;
+  right: 50px;
 }
 .container {
   display: flex;
@@ -42,14 +42,14 @@ ul {
   align-items: center;
 }
 .back-card {
-  background-color: rgb(25, 21, 30);
+  background-color: rgb(0, 0, 0);
   border-radius: 5px;
   border: 5px solid rgb(160, 150, 150);
   padding: 20px;
   width: 400px;
   margin-bottom: 0px;
   margin-top: 30px;
-  height: 500px;
+  height: 510px;
 }
 
 .button {
@@ -83,13 +83,18 @@ ul {
   color: dimgray;
   text-align: center;
 }
-
+.degree{
+  margin: 10px;
+}
+.weather-temperature{
+  text-align: center;
+}
 .weather-temperature strong {
   font-size: 50px;
   line-height: 1;
   font-weight: 400;
 
-  margin-left: 50px;
+  margin-left: 40px;
 }
 .weather-temperature .units {
   position: relative;
@@ -98,7 +103,16 @@ ul {
   font-weight: 100;
 }
 
-
+.humiditywind{
+  text-align: center;
+ 
+}
+.humidity{
+  margin: 10px;
+}
+.wind{
+  margin: 10px;
+}
 
 .faraheint {
   color: dimgray;
