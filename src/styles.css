@@ -39,6 +39,7 @@ ul {
 .container {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .back-card {
   background-color: rgb(25, 21, 30);
